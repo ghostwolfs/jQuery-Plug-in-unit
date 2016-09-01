@@ -1,0 +1,27 @@
+.skills{
+	width: 200px;
+	height: 25px;
+}
+.skills_area{
+	width: 200px;
+	height: auto;
+	position: absolute;
+	border: 1px black solid;
+	display: none;
+}
+.skills_area p{
+	width: 200px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+}
+/*.skills_area p:hover{
+	background-color: red;
+}*/
+.active{
+	background-color: red;
+}
