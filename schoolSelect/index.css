@@ -1,0 +1,60 @@
+.contentBox{
+	width: 700px;
+	height: 300px;
+	/*border: 1px solid black;*/
+	box-sizing: content-box;
+}
+.line{
+	width: 700px;
+	background-color: #1ab394;
+	height: 200px;
+}
+.line .lineHead{
+	width: 100px;
+	height: 200px;
+	text-align: center;
+	min-height: 50px;
+	line-height: 200px;
+	color: white;
+	font-size: 16px;
+	box-sizing: border-box;
+	border-right: 1px solid #F5F5F5;
+	border-bottom: 1px solid #F5F5F5;
+	float: left;
+}
+.line ul{
+	list-style: none;
+	width: 600px;
+	min-height: 50px;
+	max-height: 200px;
+	height: auto;
+	overflow: scroll;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.line ul li{
+	margin: 0px;
+	padding: 0px;
+	min-width: 120px;
+	width: auto;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 14px;
+	box-sizing: border-box;
+	border-right: 1px solid #F5F5F5;
+	border-bottom: 1px solid #F5F5F5;
+	float: left;
+	cursor: pointer;
+}
+.line ul li:hover{
+	color: #F5F5F5;
+}
+.line ul .clickActive{
+	background-color: #999;
+}
+.line ul .biggerBox{
+	width: 200px;
+}
